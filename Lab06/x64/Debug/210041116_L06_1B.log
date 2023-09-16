@@ -1,0 +1,17 @@
+﻿  Matrix3d.cpp
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.h(17,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(17,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(18,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(19,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(20,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(21,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(22,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(23,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(24,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(25,85): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(57,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.cpp(59,46): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\Matrix3d.h(17,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  210041116_L06_1B.vcxproj -> E:\Machine_Learning_Project\Character_Recognition\210041116_L06_1B\x64\Debug\210041116_L06_1B.exe
