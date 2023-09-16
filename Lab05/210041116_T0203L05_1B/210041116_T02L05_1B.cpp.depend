@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1694080789 source:c:\users\user\desktop\oops\lab05\210041116_t02l05_1b.cpp\main.cpp
+	<iostream>
+	"StudentInfoSystem.h"
+
+1694082434 c:\users\user\desktop\oops\lab05\210041116_t02l05_1b.cpp\include\studentinfosystem.h
+	<bits/stdc++.h>
+
