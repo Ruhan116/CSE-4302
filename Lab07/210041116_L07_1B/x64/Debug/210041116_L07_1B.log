@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\User\Desktop\OOPs\Lab7\210041116_L07_1B\CurrencyEuro.h(11,64): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\OOPs\Lab7\210041116_L07_1B\CurrencyDollar.h(11,68): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\Desktop\OOPs\Lab7\210041116_L07_1B\CurrencyBDT.h(14,63): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  210041116_L07_1B.vcxproj -> C:\Users\User\Desktop\OOPs\Lab7\210041116_L07_1B\x64\Debug\210041116_L07_1B.exe
