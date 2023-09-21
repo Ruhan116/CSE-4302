@@ -131,11 +131,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix3d.cpp" />
     <ClCompile Include="rationalNumber.cpp" />
+    <ClCompile Include="ZooAnimal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Counter.h" />
     <ClInclude Include="Matrix3d.h" />
     <ClInclude Include="rationalNumber.h" />
+    <ClInclude Include="ZooAnimal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

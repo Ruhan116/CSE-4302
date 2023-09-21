@@ -57,7 +57,7 @@ void rationalNumber::setDenominator(int q)
 
 double rationalNumber::getDecimal()
 {
-    return p / q;
+    return (float)p / (float)q;
 }
 
 void rationalNumber::invert()
@@ -77,6 +77,7 @@ rationalNumber rationalNumber::operator+(rationalNumber const& num) const
     rationalNumber temp;
     temp.p = (this->p * num.q) + (this->q * num.p);
     temp.q = this->q * num.q;
+    temp.simplify();
 
     return temp;
 }
@@ -86,6 +87,7 @@ rationalNumber rationalNumber::operator-(rationalNumber const& num) const
     rationalNumber temp;
     temp.p = (this->p * num.q) - (this->q * num.p);
     temp.q = this->q * num.q;
+    temp.simplify();
     return temp;
 }
 
@@ -94,15 +96,28 @@ rationalNumber rationalNumber::operator*(rationalNumber const& num) const
     rationalNumber temp;
     temp.p = this->p * num.p;
     temp.q = this->q * num.q;
+    temp.simplify();
     return temp;
 }
 
 
 rationalNumber rationalNumber::operator/(rationalNumber num) const
 {
-    rationalNumber temp;
+    if (num.getNumerator() == 0) {
+        cout << "Error! Division by zero" << endl;
+        return rationalNumber(0, 1); 
+    }
+    
     num.invert();
+    rationalNumber temp;
     temp.p = this->p * num.p;
     temp.q = this->q * num.q;
+    temp.simplify();
     return temp;
+}
+
+
+bool rationalNumber::operator==(const rationalNumber& num) const
+{
+    return ((float)p/q == (float)num.p/num.q);
 }
